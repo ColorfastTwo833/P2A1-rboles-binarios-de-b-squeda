@@ -1,3 +1,1 @@
-Coloca aquí tus capturas de pantalla (las que usa el README):
-  - captura-main.png      -> salida de: java -cp out ArbolBinario
-  - captura-pruebas.png   -> salida de: java -cp out Pruebas
+
