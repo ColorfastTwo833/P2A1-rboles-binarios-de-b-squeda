@@ -1,0 +1,25 @@
+=== PRUEBA 1: BÚSQUEDA ===
+Ruta para 40: 50 -> 30 -> 40
+buscar(40) = true
+Ruta para 90: 50 -> 70 -> 80 -> null
+buscar(90) = false
+Ruta para 50: 50
+buscar(50) = true
+
+=== PRUEBA 2: ELIMINACIÓN (un caso por árbol nuevo) ===
+Eliminar 20 (hoja) -> inorden: 30 40 50 60 70 80 
+Eliminar 30 (un hijo) -> inorden: 40 50 60 70 80 
+Eliminar 70 (dos hijos) -> inorden: 20 30 40 50 60 80 
+Eliminar 50 (raíz con dos hijos) -> inorden: 20 30 40 60 70 80 
+Nueva raíz: 60
+Eliminar 99 (clave inexistente, no cambia nada) -> inorden: 20 30 40 50 60 70 80 
+
+=== PRUEBA 3: ELIMINAR TODO EN SECUENCIA ===
+Eliminar 20 (secuencia) -> inorden: 30 40 50 60 70 80 
+Eliminar 70 (secuencia) -> inorden: 30 40 50 60 80 
+Eliminar 50 (secuencia) -> inorden: 30 40 60 80 
+Eliminar 30 (secuencia) -> inorden: 40 60 80 
+Eliminar 40 (secuencia) -> inorden: 60 80 
+Eliminar 60 (secuencia) -> inorden: 80 
+Eliminar 80 (secuencia) -> inorden: 
+Árbol vacío: true
