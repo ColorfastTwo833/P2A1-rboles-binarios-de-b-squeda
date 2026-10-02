@@ -1,30 +1,6 @@
 # Árbol Binario de Búsqueda (ABB) en Java
 Implementación de un ABB con inserción, recorridos, **búsqueda**, **eliminación** y un método auxiliar para encontrar el **valor mínimo** de un subárbol.
 
-## Estructura del repositorio
-
-```
-.
-├── README.md                 ← dibujo, código explicado y respuestas
-├── src/
-│   ├── ArbolBinario.java     ← código completo (Nodo + ArbolBinario)
-│   └── Pruebas.java          ← pruebas adicionales de búsqueda y eliminación
-├── docs/
-│   └── arbol-inicial.svg     ← dibujo del árbol inicial
-├── salidas/                  ← salida de consola de cada programa (texto)
-└── capturas/                 ← capturas de pantalla de las pruebas
-```
-
-## Cómo ejecutar
-
-```bash
-javac -d out src/*.java
-java -cp out ArbolBinario     # programa principal de la actividad
-java -cp out Pruebas          # pruebas adicionales
-```
-
----
-
 ## Dibujo del árbol inicial
 
 Inserción en este orden: **50, 30, 20, 40, 70, 60 y 80**.
