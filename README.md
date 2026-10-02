@@ -257,4 +257,3 @@ Eliminar 80 (secuencia) -> inorden:
 Árbol vacío: true
 ```
 
-![Captura pruebas adicionales](capturas/captura-pruebas.png)
